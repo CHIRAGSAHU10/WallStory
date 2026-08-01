@@ -4,10 +4,10 @@ import { Menu, X } from "lucide-react";
 import { LOGO, CONTACT } from "../lib/assets";
 
 const LINKS = [
-  { label: "Philosophy", id: "philosophy" },
-  { label: "Services", id: "services" },
+  { label: "What We Do", id: "services" },
   { label: "Projects", id: "projects" },
   { label: "About", id: "about" },
+  { label: "Philosophy", id: "philosophy" },
   { label: "Contact", id: "contact" },
 ];
 
@@ -48,7 +48,7 @@ const Navbar = () => {
           <img
             src={LOGO}
             alt="WallStory Interiors"
-            className="h-11 md:h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+            className="h-11 md:h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.03] drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]"
           />
         </button>
 

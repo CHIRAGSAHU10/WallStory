@@ -97,10 +97,10 @@ function App() {
       <main>
         <Hero />
         <EditorialMarquee />
-        <Manifesto />
         <Services />
         <Projects />
         <About />
+        <Manifesto />
         <Contact />
       </main>
     </div>

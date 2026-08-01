@@ -41,6 +41,9 @@ const Hero = () => {
         className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-[#0A0A0A]"
       />
 
+      {/* Top scrim — keeps the gold logo legible over bright video frames */}
+      <div className="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-black/55 to-transparent pointer-events-none" />
+
       <motion.div
         style={{ y: textY }}
         className="relative z-10 h-full max-w-[1600px] mx-auto px-6 md:px-10 flex flex-col justify-end pb-20 md:pb-28"
@@ -56,7 +59,7 @@ const Hero = () => {
 
         <RevealLinesOnLoad
           delay={0.4}
-          className="h-display font-serif font-light text-[var(--ivory)] text-[15vw] md:text-[10vw] lg:text-[9rem]"
+          className="h-display font-serif font-light text-[var(--ivory)] text-[11vw] md:text-[8vw] lg:text-[7.5rem]"
           lines={["Complete", "Interior Solution"]}
         />
 
@@ -78,7 +81,7 @@ const Hero = () => {
             data-testid="hero-scroll-cue"
             onClick={() =>
               document
-                .getElementById("philosophy")
+                .getElementById("services")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
             className="group flex items-center gap-4 self-start"

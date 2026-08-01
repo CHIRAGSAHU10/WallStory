@@ -105,10 +105,10 @@ const Projects = () => {
     <section
       id="projects"
       data-testid="projects-section"
-      className="relative bg-[#0A0A0A] py-28 md:py-40 border-t border-white/10"
+      className="relative bg-[#0A0A0A] py-24 md:py-32 border-t border-white/10"
     >
       <div className="max-w-[1600px] mx-auto px-6 md:px-10">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mb-20 md:mb-28">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mb-14 md:mb-20">
           <div className="md:col-span-4">
             <FadeUp>
               <p className="overline mb-6">Selected Work</p>
@@ -122,7 +122,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="space-y-28 md:space-y-40">
+        <div className="space-y-24 md:space-y-32">
           {projects.map((p) => (
             <ProjectBlock key={p.index} p={p} />
           ))}
