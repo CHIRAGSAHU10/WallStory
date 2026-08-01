@@ -45,10 +45,10 @@ const Services = () => {
     <section
       id="services"
       data-testid="services-section"
-      className="relative bg-[#0A0A0A] py-24 md:py-32 border-t border-white/10"
+      className="relative bg-[#0A0A0A] py-14 md:py-20 border-t border-white/10"
     >
       <div className="max-w-[1600px] mx-auto px-6 md:px-10">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-14 md:mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-10 md:mb-14">
           <div className="md:col-span-4">
             <FadeUp>
               <p className="overline mb-6">What We Do</p>
@@ -84,7 +84,7 @@ const Services = () => {
                     {s.no}
                   </span>
                   <h3
-                    className={`md:col-span-6 font-serif text-3xl md:text-5xl lg:text-6xl font-light transition-all duration-500 ${
+                    className={`md:col-span-7 font-serif text-3xl md:text-5xl lg:text-6xl font-light transition-all duration-500 ${
                       active === s.id
                         ? "text-[var(--gold)] md:translate-x-3"
                         : "text-[#7a7a7a]"
@@ -92,14 +92,14 @@ const Services = () => {
                   >
                     {s.name}
                   </h3>
-                  <div className="md:col-span-5 overflow-hidden">
+                  <div className="md:col-span-4 overflow-hidden">
                     <motion.p
                       animate={{
                         opacity: active === s.id ? 1 : 0,
                         y: active === s.id ? 0 : 8,
                       }}
                       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-                      className="text-[#9a968c] text-sm md:text-base leading-relaxed font-light max-w-sm"
+                      className="text-[#9a968c] text-sm md:text-base leading-relaxed font-light"
                     >
                       {s.desc}
                     </motion.p>

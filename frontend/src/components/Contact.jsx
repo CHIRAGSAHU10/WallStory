@@ -40,7 +40,7 @@ const Contact = () => {
     <section
       id="contact"
       data-testid="contact-section"
-      className="relative bg-[#0A0A0A] pt-28 md:pt-40 border-t border-white/10"
+      className="relative bg-[#0A0A0A] pt-16 md:pt-24 border-t border-white/10"
     >
       <div className="max-w-[1600px] mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-14 md:gap-20">

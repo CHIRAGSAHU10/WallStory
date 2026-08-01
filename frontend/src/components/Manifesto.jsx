@@ -23,10 +23,10 @@ const Manifesto = () => {
     <section
       id="philosophy"
       data-testid="philosophy-section"
-      className="relative bg-[#0A0A0A] py-24 md:py-32"
+      className="relative bg-[#0A0A0A] py-14 md:py-20"
     >
       <div className="max-w-[1600px] mx-auto px-6 md:px-10">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16 mb-14 md:mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-16 mb-10 md:mb-14">
           <div className="md:col-span-4">
             <FadeUp>
               <p className="overline mb-6">The Philosophy</p>

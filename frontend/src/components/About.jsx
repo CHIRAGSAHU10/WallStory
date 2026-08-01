@@ -16,7 +16,7 @@ const About = () => {
     <section
       id="about"
       data-testid="about-section"
-      className="relative bg-[#0A0A0A] py-24 md:py-32 border-t border-white/10 overflow-hidden"
+      className="relative bg-[#0A0A0A] py-14 md:py-20 border-t border-white/10 overflow-hidden"
     >
       <div className="max-w-[1600px] mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-center">
